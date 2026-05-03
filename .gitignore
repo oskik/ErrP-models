@@ -1,0 +1,7 @@
+*.csv
+*.png
+*.svg
+C-/
+*.json
+.vscode/
+*.xlsx
