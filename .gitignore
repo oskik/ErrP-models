@@ -3,5 +3,6 @@
 *.svg
 C-/
 *.json
+*.npz
 .vscode/
 *.xlsx
