@@ -11,7 +11,7 @@ def main():
     root_dir = script_dir.parent                  # The main project folder
     
     data_dir = root_dir / "bci_train"
-    labels_path = root_dir / "TrainLabels.csv"    # Update this if labels are inside bci_train
+    labels_path = data_dir / "TrainLabels.csv"
 
     print(f"Loading labels from {labels_path}...")
     labels_df = pd.read_csv(labels_path)

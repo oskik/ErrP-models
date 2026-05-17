@@ -1,8 +1,10 @@
-*.csv
 *.png
 *.svg
-C-/
 *.json
 *.npz
-.vscode/
+*.csv
 *.xlsx
+.vscode/
+C-/
+eegnet_moabb_processed/
+eegnet_ner_processed/
