@@ -130,7 +130,7 @@ def main():
         drop_last_window=True
     )
 
-    output_dir = 'eegnet_ner_processed'
+    output_dir = root_dir / 'eegnet_ner_processed'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
